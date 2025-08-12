@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FB389852C925A7E0043004F /* Leap Years Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB389842C925A7E0043004F /* Leap Years Conversion.swift */; };
+		6FB389872C925B950043004F /* Megamaxwell Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB389862C925B950043004F /* Megamaxwell Conversion.swift */; };
+		6FB389892C925DC90043004F /* Feet  Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB389882C925DC90043004F /* Feet  Conversion.swift */; };
+		6FB3898B2C9266320043004F /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3898A2C9266320043004F /* Table.swift */; };
+		6FE5AFE62C91879800422052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5AFE52C91879800422052 /* AppDelegate.swift */; };
+		6FE5AFE82C91879800422052 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5AFE72C91879800422052 /* SceneDelegate.swift */; };
+		6FE5AFED2C91879800422052 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FE5AFEC2C91879800422052 /* Base */; };
+		6FE5AFEF2C91879A00422052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE5AFEE2C91879A00422052 /* Assets.xcassets */; };
+		6FE5AFF22C91879A00422052 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FE5AFF12C91879A00422052 /* Base */; };
+		6FE5AFFD2C91879A00422052 /* Gage_MATRICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5AFFC2C91879A00422052 /* Gage_MATRICTests.swift */; };
+		6FE5B0072C91879A00422052 /* Gage_MATRICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0062C91879A00422052 /* Gage_MATRICUITests.swift */; };
+		6FE5B0092C91879A00422052 /* Gage_MATRICUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0082C91879A00422052 /* Gage_MATRICUITestsLaunchTests.swift */; };
+		6FE5B0162C91886900422052 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0152C91886900422052 /* CustomDropDown.swift */; };
+		6FE5B0182C91887500422052 /* KeyboardHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0172C91887500422052 /* KeyboardHide.swift */; };
+		6FE5B01A2C9188CB00422052 /* GrradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0192C9188CB00422052 /* GrradientView.swift */; };
+		6FE5B01C2C9188D700422052 /* TextfieldShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B01B2C9188D700422052 /* TextfieldShadow.swift */; };
+		6FE5B01E2C9188E500422052 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B01D2C9188E500422052 /* Placeholder.swift */; };
+		6FE5B0202C91892200422052 /* Volt Ampere Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B01F2C91892200422052 /* Volt Ampere Conversion.swift */; };
+		6FE5B0222C91894300422052 /* filterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0212C91894300422052 /* filterVC.swift */; };
+		6FE5B0242C919AA000422052 /* Microcurie Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0232C919AA000422052 /* Microcurie Conversion.swift */; };
+		6FE5B0262C91A09600422052 /* Exabytes Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5B0252C91A09600422052 /* Exabytes Conversion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FE5AFF92C91879A00422052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE5AFDA2C91879800422052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE5AFE12C91879800422052;
+			remoteInfo = "Gage MATRIC";
+		};
+		6FE5B0032C91879A00422052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE5AFDA2C91879800422052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE5AFE12C91879800422052;
+			remoteInfo = "Gage MATRIC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FB389842C925A7E0043004F /* Leap Years Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Leap Years Conversion.swift"; sourceTree = "<group>"; };
+		6FB389862C925B950043004F /* Megamaxwell Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Megamaxwell Conversion.swift"; sourceTree = "<group>"; };
+		6FB389882C925DC90043004F /* Feet  Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Feet  Conversion.swift"; sourceTree = "<group>"; };
+		6FB3898A2C9266320043004F /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		6FE5AFE22C91879800422052 /* Gage MATRIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gage MATRIC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE5AFE52C91879800422052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FE5AFE72C91879800422052 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FE5AFEC2C91879800422052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FE5AFEE2C91879A00422052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FE5AFF12C91879A00422052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FE5AFF32C91879A00422052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE5AFF82C91879A00422052 /* Gage MATRICTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gage MATRICTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE5AFFC2C91879A00422052 /* Gage_MATRICTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gage_MATRICTests.swift; sourceTree = "<group>"; };
+		6FE5B0022C91879A00422052 /* Gage MATRICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gage MATRICUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE5B0062C91879A00422052 /* Gage_MATRICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gage_MATRICUITests.swift; sourceTree = "<group>"; };
+		6FE5B0082C91879A00422052 /* Gage_MATRICUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gage_MATRICUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FE5B0152C91886900422052 /* CustomDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDown.swift; sourceTree = "<group>"; };
+		6FE5B0172C91887500422052 /* KeyboardHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHide.swift; sourceTree = "<group>"; };
+		6FE5B0192C9188CB00422052 /* GrradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrradientView.swift; sourceTree = "<group>"; };
+		6FE5B01B2C9188D700422052 /* TextfieldShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldShadow.swift; sourceTree = "<group>"; };
+		6FE5B01D2C9188E500422052 /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
+		6FE5B01F2C91892200422052 /* Volt Ampere Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Volt Ampere Conversion.swift"; sourceTree = "<group>"; };
+		6FE5B0212C91894300422052 /* filterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterVC.swift; sourceTree = "<group>"; };
+		6FE5B0232C919AA000422052 /* Microcurie Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Microcurie Conversion.swift"; sourceTree = "<group>"; };
+		6FE5B0252C91A09600422052 /* Exabytes Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exabytes Conversion.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FE5AFDF2C91879800422052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE5AFF52C91879A00422052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE5AFFF2C91879A00422052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FE5AFD92C91879800422052 = {
+			isa = PBXGroup;
+			children = (
+				6FE5AFE42C91879800422052 /* Gage MATRIC */,
+				6FE5AFFB2C91879A00422052 /* Gage MATRICTests */,
+				6FE5B0052C91879A00422052 /* Gage MATRICUITests */,
+				6FE5AFE32C91879800422052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FE5AFE32C91879800422052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE5AFE22C91879800422052 /* Gage MATRIC.app */,
+				6FE5AFF82C91879A00422052 /* Gage MATRICTests.xctest */,
+				6FE5B0022C91879A00422052 /* Gage MATRICUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE5AFE42C91879800422052 /* Gage MATRIC */ = {
+			isa = PBXGroup;
+			children = (
+				9DC7A2F22E4B57ED00B44631 /* App Delegate */,
+				6FE5AFEB2C91879800422052 /* Main.storyboard */,
+				6FB3898A2C9266320043004F /* Table.swift */,
+				9DC7A2F42E4B583400B44631 /* Conversions */,
+				6FE5AFEE2C91879A00422052 /* Assets.xcassets */,
+				6FE5AFF02C91879A00422052 /* LaunchScreen.storyboard */,
+				6FE5AFF32C91879A00422052 /* Info.plist */,
+				9DC7A2F32E4B581300B44631 /* Custom Code */,
+			);
+			path = "Gage MATRIC";
+			sourceTree = "<group>";
+		};
+		6FE5AFFB2C91879A00422052 /* Gage MATRICTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE5AFFC2C91879A00422052 /* Gage_MATRICTests.swift */,
+			);
+			path = "Gage MATRICTests";
+			sourceTree = "<group>";
+		};
+		6FE5B0052C91879A00422052 /* Gage MATRICUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE5B0062C91879A00422052 /* Gage_MATRICUITests.swift */,
+				6FE5B0082C91879A00422052 /* Gage_MATRICUITestsLaunchTests.swift */,
+			);
+			path = "Gage MATRICUITests";
+			sourceTree = "<group>";
+		};
+		9DC7A2F22E4B57ED00B44631 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6FE5AFE52C91879800422052 /* AppDelegate.swift */,
+				6FE5AFE72C91879800422052 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		9DC7A2F32E4B581300B44631 /* Custom Code */ = {
+			isa = PBXGroup;
+			children = (
+				6FE5B0152C91886900422052 /* CustomDropDown.swift */,
+				6FE5B0172C91887500422052 /* KeyboardHide.swift */,
+				6FE5B0192C9188CB00422052 /* GrradientView.swift */,
+				6FE5B01B2C9188D700422052 /* TextfieldShadow.swift */,
+				6FE5B01D2C9188E500422052 /* Placeholder.swift */,
+				6FE5B0212C91894300422052 /* filterVC.swift */,
+			);
+			path = "Custom Code";
+			sourceTree = "<group>";
+		};
+		9DC7A2F42E4B583400B44631 /* Conversions */ = {
+			isa = PBXGroup;
+			children = (
+				6FB389882C925DC90043004F /* Feet  Conversion.swift */,
+				6FB389842C925A7E0043004F /* Leap Years Conversion.swift */,
+				6FB389862C925B950043004F /* Megamaxwell Conversion.swift */,
+				6FE5B0252C91A09600422052 /* Exabytes Conversion.swift */,
+				6FE5B01F2C91892200422052 /* Volt Ampere Conversion.swift */,
+				6FE5B0232C919AA000422052 /* Microcurie Conversion.swift */,
+			);
+			path = Conversions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE5AFE12C91879800422052 /* Gage MATRIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE5B00C2C91879A00422052 /* Build configuration list for PBXNativeTarget "Gage MATRIC" */;
+			buildPhases = (
+				6FE5AFDE2C91879800422052 /* Sources */,
+				6FE5AFDF2C91879800422052 /* Frameworks */,
+				6FE5AFE02C91879800422052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gage MATRIC";
+			productName = "Gage MATRIC";
+			productReference = 6FE5AFE22C91879800422052 /* Gage MATRIC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FE5AFF72C91879A00422052 /* Gage MATRICTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE5B00F2C91879A00422052 /* Build configuration list for PBXNativeTarget "Gage MATRICTests" */;
+			buildPhases = (
+				6FE5AFF42C91879A00422052 /* Sources */,
+				6FE5AFF52C91879A00422052 /* Frameworks */,
+				6FE5AFF62C91879A00422052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE5AFFA2C91879A00422052 /* PBXTargetDependency */,
+			);
+			name = "Gage MATRICTests";
+			productName = "Gage MATRICTests";
+			productReference = 6FE5AFF82C91879A00422052 /* Gage MATRICTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FE5B0012C91879A00422052 /* Gage MATRICUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE5B0122C91879A00422052 /* Build configuration list for PBXNativeTarget "Gage MATRICUITests" */;
+			buildPhases = (
+				6FE5AFFE2C91879A00422052 /* Sources */,
+				6FE5AFFF2C91879A00422052 /* Frameworks */,
+				6FE5B0002C91879A00422052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE5B0042C91879A00422052 /* PBXTargetDependency */,
+			);
+			name = "Gage MATRICUITests";
+			productName = "Gage MATRICUITests";
+			productReference = 6FE5B0022C91879A00422052 /* Gage MATRICUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE5AFDA2C91879800422052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6FE5AFE12C91879800422052 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6FE5AFF72C91879A00422052 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6FE5AFE12C91879800422052;
+					};
+					6FE5B0012C91879A00422052 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6FE5AFE12C91879800422052;
+					};
+				};
+			};
+			buildConfigurationList = 6FE5AFDD2C91879800422052 /* Build configuration list for PBXProject "Gage MATRIC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FE5AFD92C91879800422052;
+			productRefGroup = 6FE5AFE32C91879800422052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE5AFE12C91879800422052 /* Gage MATRIC */,
+				6FE5AFF72C91879A00422052 /* Gage MATRICTests */,
+				6FE5B0012C91879A00422052 /* Gage MATRICUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FE5AFE02C91879800422052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE5AFEF2C91879A00422052 /* Assets.xcassets in Resources */,
+				6FE5AFF22C91879A00422052 /* Base in Resources */,
+				6FE5AFED2C91879800422052 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE5AFF62C91879A00422052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE5B0002C91879A00422052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FE5AFDE2C91879800422052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE5B0182C91887500422052 /* KeyboardHide.swift in Sources */,
+				6FB389872C925B950043004F /* Megamaxwell Conversion.swift in Sources */,
+				6FE5B01A2C9188CB00422052 /* GrradientView.swift in Sources */,
+				6FB389892C925DC90043004F /* Feet  Conversion.swift in Sources */,
+				6FE5B0242C919AA000422052 /* Microcurie Conversion.swift in Sources */,
+				6FE5B0262C91A09600422052 /* Exabytes Conversion.swift in Sources */,
+				6FB3898B2C9266320043004F /* Table.swift in Sources */,
+				6FE5B0222C91894300422052 /* filterVC.swift in Sources */,
+				6FE5B0162C91886900422052 /* CustomDropDown.swift in Sources */,
+				6FB389852C925A7E0043004F /* Leap Years Conversion.swift in Sources */,
+				6FE5AFE62C91879800422052 /* AppDelegate.swift in Sources */,
+				6FE5B0202C91892200422052 /* Volt Ampere Conversion.swift in Sources */,
+				6FE5AFE82C91879800422052 /* SceneDelegate.swift in Sources */,
+				6FE5B01C2C9188D700422052 /* TextfieldShadow.swift in Sources */,
+				6FE5B01E2C9188E500422052 /* Placeholder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE5AFF42C91879A00422052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE5AFFD2C91879A00422052 /* Gage_MATRICTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE5AFFE2C91879A00422052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE5B0092C91879A00422052 /* Gage_MATRICUITestsLaunchTests.swift in Sources */,
+				6FE5B0072C91879A00422052 /* Gage_MATRICUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FE5AFFA2C91879A00422052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE5AFE12C91879800422052 /* Gage MATRIC */;
+			targetProxy = 6FE5AFF92C91879A00422052 /* PBXContainerItemProxy */;
+		};
+		6FE5B0042C91879A00422052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE5AFE12C91879800422052 /* Gage MATRIC */;
+			targetProxy = 6FE5B0032C91879A00422052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FE5AFEB2C91879800422052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE5AFEC2C91879800422052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FE5AFF02C91879A00422052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE5AFF12C91879A00422052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FE5B00A2C91879A00422052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FE5B00B2C91879A00422052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE5B00D2C91879A00422052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gage MATRIC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SK.Gage-MATRIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6FE5B00E2C91879A00422052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gage MATRIC/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SK.Gage-MATRIC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6FE5B0102C91879A00422052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SK.Gage-MATRICTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gage MATRIC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gage MATRIC";
+			};
+			name = Debug;
+		};
+		6FE5B0112C91879A00422052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SK.Gage-MATRICTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gage MATRIC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gage MATRIC";
+			};
+			name = Release;
+		};
+		6FE5B0132C91879A00422052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SK.Gage-MATRICUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gage MATRIC";
+			};
+			name = Debug;
+		};
+		6FE5B0142C91879A00422052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SK.Gage-MATRICUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gage MATRIC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE5AFDD2C91879800422052 /* Build configuration list for PBXProject "Gage MATRIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE5B00A2C91879A00422052 /* Debug */,
+				6FE5B00B2C91879A00422052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE5B00C2C91879A00422052 /* Build configuration list for PBXNativeTarget "Gage MATRIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE5B00D2C91879A00422052 /* Debug */,
+				6FE5B00E2C91879A00422052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE5B00F2C91879A00422052 /* Build configuration list for PBXNativeTarget "Gage MATRICTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE5B0102C91879A00422052 /* Debug */,
+				6FE5B0112C91879A00422052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE5B0122C91879A00422052 /* Build configuration list for PBXNativeTarget "Gage MATRICUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE5B0132C91879A00422052 /* Debug */,
+				6FE5B0142C91879A00422052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FE5AFDA2C91879800422052 /* Project object */;
+}
